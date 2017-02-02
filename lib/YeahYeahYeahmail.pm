@@ -36,8 +36,8 @@ sub can_read_from_file ($self) {
     return (-e -f -r $self->filename);
 }
 
-# Maybe set $self->addresses. Return the number of email addresses found
-# in a given filename.
+# Maybe set $self->addresses from $self->filename. Return the number of email
+# addresses found in a given file.
 sub read_addresses_from_file ($self) {
     return 0 unless $self->can_read_from_file;
 
@@ -66,7 +66,7 @@ sub domains ($self) {
             next;
         }
         # Email looks good. Cut domain name from it.
-        # Hot regex ninjas do that:
+        # How regex ninjas do that:
         # http://stackoverflow.com/questions/10306690/domain-name-validation-with-regex
         $address =~ m/@([a-z0-9.-]+)$/i;
         my $domain_name = lc $1;
