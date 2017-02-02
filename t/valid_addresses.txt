@@ -1,0 +1,13 @@
+prettyandsimple@example.com
+very.common@example.com
+disposable.style.email.with+symbol@example.com
+other.email-with-dash@example.com
+x@example.com
+"much.more unusual"@example.com
+"very.unusual.@.unusual.com"@example.com
+"very.(),:;<>[]\".VERY.\"very@\\ \"very\".unusual"@strange.example.com
+example-indeed@strange-example.com
+#!$%&'*+-/=?^_`{}|~@example.org
+"()<>[]:,;@\\\"!#$%&'-/=?^_`{}| ~.a"@example.org
+" "@example.org
+example@example.example
