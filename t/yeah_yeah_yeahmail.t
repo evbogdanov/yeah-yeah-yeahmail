@@ -88,7 +88,7 @@ $yyym->addresses([
     'c@a.com',
     'd@b.com',
     'e@b.com',
-    'f@c.com'
+    'f@c.com',
 ]);
 
 my $domains_expected = [
